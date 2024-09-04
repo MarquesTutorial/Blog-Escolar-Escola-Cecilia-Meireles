@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Agendamentos</title>
+    <link rel="stylesheet" href="ag.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Materiais</h1>
+        <form id="agendamentoForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="form-group">
+                <label for="material">Material:</label>
+                <input type="text" id="material">
+            </div>
+            <div class="form-group">
+                <label for="data">Data:</label>
+                <input type="date" id="data">
+            </div>
+            <div class="form-group">
+                <label for="horaInicial">Hora Inicial:</label>
+                <input type="time" id="horaInicial">
+            </div>
+            <div class="form-group">
+                <label for="horaFinal">Hora Final:</label>
+                <input type="time" id="horaFinal">
+            </div>
+            <button type="submit" id="submitBtn">Cadastrar</button>
+        </form>
+        <a href="listagem.html" class="link">Ver Agendamentos</a>
+    </div>
+
+    <script src="ag.js"></script>
+</body>
+</html>

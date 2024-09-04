@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Escolar - Escola Cecilia Meireles</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta property="business:contact_data:country_name" content="Brasil" />
+    
+    <meta property="business:contact_data:region" content="src" />
+    <meta property="business:contact_data:email" content="marquestutorial@gmail" />
+    <meta property="business:contact_data:phone_number" content="65 9 3548-2363" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description"
+        content="Esola Cecilia Meireles" />
+
+
+    <meta name="geo.placename" content="MT" />
+    <meta name="geo.region" content="BR" />
+    <meta name="twitter:description"
+        content="Esola Cecilia Meireles" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="format-detection" content="65 9 3548-2363">
+    <!-- SEO -->
+
+    <!-- Favicon -->
+    <link href="img/favicon-32x32.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">CeciliaMeireles</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="cadastro.html" class="nav-item nav-link active">Cadastro</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">CeciliaMeireles</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h1 class="text-primary mb-3 text-center">Bem-Vindo à</h1> <!-- Aqui altera o nome bem vindo -->
+                    <h1 class="display-3 mb-3 text-center">Escola Cecilia Meireles</h1>  <!-- Aqui altera o nome da escola -->
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Diretor, Coordenadores, Professores, Equipe escolar
+                    </div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="" class="btn btn-primary py-3 px-4 me-5">Download da missão</a> <!-- Aqui altera o nome do botão dawnload -->
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://youtu.be/Is05ZdK0hy8?si=0W_MM0APspP99fV2" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="4 mb-0ms- d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="profile.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Header End -->
+
+
+    <!-- Início Modal de Vídeo -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Proporção de aspecto 16:9 -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Is05ZdK0hy8" id="videoIframe" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Fim Modal de Vídeo -->
+
+    <!-- Sobre Iniciar -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">13</h1>
+                            <h5 class="mb-0">Anos</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">A escola Municipal Cecília Meireles foi inaugurada no dia onze de março de dois mil e onze, na época atendendo de (1ª a 6ª série), inicialmente um total de 384 alunos (trezentos e oitenta e quatro).</h3>
+                    </div>
+                    <p class="mb-4">Avançando no tempo, no ano de 2020, a escola foi reformada e ampliada, contando com a construção de um novo Bloco de salas de aula e laboratórios com 2.684 metros quadrados (denominado Bloco C), ampliação e reforma do refeitório escolar, pintura do ginásio poliesportivo, e pintura de toda a área externa dos outros Blocos de salas de aula escolares (denominados Blocos A e B). Já no ano de 2023, considerando as novas possibilidades estruturais, a escola atende um total de 1123 alunos (mil cento e vinte e nove) matriculados no Ensino Infantil 6 turmas, Fundamental em 23 turmas dos anos iniciais regulares (1º ao 5º ano), 10 turmas em Tempo Integral (1º ao 5º ano) e 10 turmas no Ensino Fundamental II Anos Finais (6º e 7º ano).</p>
+                   
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Leia mais</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="about-1.jpeg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="about-2.jpeg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="about-3.jpeg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="about-4.jpeg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="ano">
+                    <div class="grid-item">
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>1º ANO</a></p>
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>2º ANO</a></p>
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>3º ANO</a></p>
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>4º ANO</a></p>
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>5º ANO</a></p>
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>6º ANO</a></p>
+                    <p class="mb-3"><a href="#"><i class="far fa-address-book"></i>7º ANO</a></p>
+                    <p class="mb-3"><a href="https://drive.google.com/drive/folders/1TC-HoXvmD0WUua0F909qlnh6pjWJ7DH4?usp=sharing"><i class="far fa-address-book"></i>Criança Alfabetizada-Renalfa</a></p>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-light my-5 py-6 text-center" id="service">
+        <main class="container text-center">
+            <section >
+                <h2 class="display-5 mb-0">languagetool</h2>
+                    <br>
+                    <h2><a class="link" href="https://languagetool.org/pt-BR" download target="_blank">Corretor ortográfico</a></h2>
+            </section>
+            <section >
+                <h2 class="display-5 mb-0">wordwall.net/pt</h2>
+                    <br>
+                    <h2 class="link"><a href="https://wordwall.net/pt" download target="_blank">Wordwall</a></h2>
+            </section>
+            <section >
+                <h2 class="display-5 mb-0">huggingface.co</h2>
+                    <br>
+                    <h2 class="link"><a href="https://huggingface.co/spaces?sort=trending" download target="_blank">Espaços.ia</a></h2>
+            </section>
+            <section >
+                <h2 class="display-5 mb-0">teachy.ai</h2>
+                    <br>
+                    <h2 class="link"><a href="https://www.teachy.com.br/" download target="_blank">teachy.com.br</a></h2>
+            </section>
+        </main>
+    </div>
+
+    
+
+    <!-- Inicio do link download -->
+    <div class="container-fluid bg-light my-5 py-6 text-center" id="service">
+        <main class="container text-center">
+            <h1>HINO NACIONAL BRASILEIRO/ HINO DE LUCAS DO RIO VERDE</h1>
+            <section >
+                <audio controls>
+                    <source src="hino_nacional_brasileiro.mp3" type="audio/mpeg">
+                    Seu navegador não suporta a tag de áudio.
+                </audio>
+                <audio controls>
+                    <source src="hino_de_lucas_do_rio_verde.mp3" type="audio/mpeg">
+                    Seu navegador não suporta a tag de áudio.
+                </audio>
+            </section>
+        </main>
+    </div>
+
+    <div class="container-fluid bg-light my-5 py-6 text-center" id="service">
+        <main class="container text-center">
+            <section >
+                <h1 class="display-5 mb-0">Pasta do google drive.</h1>
+                <!--<h1 text-center>Baixe o documento:</h1>-->
+                <br>
+                <h2><a href="https://drive.google.com/drive/folders/1TC-HoXvmD0WUua0F909qlnh6pjWJ7DH4?usp=sharing" download target="_blank">Criança Alfabetizada-Renalfa</a><h2>
+            </section>
+        </main>
+    </div>
+
+    <div class="container-fluid bg-light my-5 py-6 text-center" id="service">
+        <main class="container text-center">
+            <section >
+                <h1 class="display-5 mb-0">Pasta do google drive site.</h1>
+                <!--<h1 text-center>Baixe o documento:</h1>-->
+                <br>
+                <h2><a href="https://drive.google.com/drive/folders/1OrpZU9Lq6kv44YLUCyChrivPPH43edJQ?usp=sharing" download target="_blank">Pasta institucional</a><h2>
+            </section>
+        </main>
+    </div>
+
+    <div class="container-fluid bg-light my-5 py-6 text-center" id="service">
+    <main class="container text-center">
+        <section >
+            <h1 class="display-5 mb-0">Plano educacional individualizado</h1>
+            <!--<h1 text-center>Baixe o documento:</h1>-->
+            <br>
+            <h2><a href="FICHAS-DO-PEI.docx" download>Documento PEI</a><h2>
+        </section>
+    </main>
+</Div>
+
+<div class="container-fluid bg-light my-5 py-6 text-center" id="service">
+    <main class="container text-center">
+        <section >
+            <h1 class="display-5 mb-0">Pesquisa</h1>
+            <!--<h1 text-center>Formulário</h1>-->
+            <br>
+            <h2><a href="https://forms.gle/PQnyxjU6FuEF12Lb6" download target="_blank">Formulário de pesquisa.</a><h2>
+        </section>
+    </main>
+</Div>
+
+
+ <!-- fim do link download -->
+
+
+    <!-- Expertise Start -->
+    
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Atividades para professores desfrutarem</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Clici - me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class='fab fa-audible' style='font-size:36px;color:blue'></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Atividade Perímetro 5º ANO</h4>
+                            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/9279dd4102674ae8a31890d82887a53b?themeId=23&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class='fas fa-book-open' style='font-size:36px;color:blue'></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Atividade Perímetro 5º ANO</h4>
+                            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/4f18626574464e5690ca524d2fc9f7f3?themeId=46&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class='fas fa-laptop-code' style='font-size:36px;color:blue'></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Atividade Perímetro 5º ANO</h4>
+                            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/ef43599c223847e3bf7056b1ef7b9c49?themeId=41&templateId=30&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class='fas fa-chalkboard-teacher' style='font-size:36px;color:blue'></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Atividade Perímetro 5º ANO</h4>
+                            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/445c977832b6489faff79c6d697c4723?themeId=2&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+            <div class="bg-icon flex-shrink-0 mb-3">
+                <i class='fas fa-chalkboard-teacher' style='font-size:36px;color:blue'></i>
+            </div>
+            <div class="ms-sm-4">
+                <h4 class="mb-3">Pesquisa</h4>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWvFb5k4BNJJTE3UCd6be8CRk_PKEjr6b8ulvbRrLvjzKA8A/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+    <!-- Service End -->
+
+
+    <!-- Projects Start 
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Os professores</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">Pedagogos</li>
+                        <li class="mx-3" data-filter=".first">Areas</li>
+                        <li class="mx-3" data-filter=".second">Especificos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="project-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="project-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="project-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="project-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="project-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="project-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     Projects End 
+<br>
+
+    Team Start 
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Os Coordenadores</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">conheça-nos</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="project-1.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Nome completo</h5>
+                                <span>Função</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="project-2.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Nome completo</h5>
+                                <span>Função</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="project-3.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Nome completo</h5>
+                                <span>Função</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    <!-- Team End -->
+
+<!-- Testemunhas desabilitado
+  
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  --> <!-- Fim do comentário doas testemunhas -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Trabalho do desenvolvedor</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Diga Olá</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Meu trabalho:</p>
+                    <h3 class="fw-bold">Escola #########</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Telefone:</p>
+                    <h3 class="fw-bold">** ** ***** ****</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">-Email:</p>
+                    <h3 class="fw-bold">######@######.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">siga-me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/share/uHEUcpXcPfc6t2xS/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+<!--
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/share/uHEUcpXcPfc6t2xS/?mibextid=qi2Omg"><i class="fab fa-facebook-f"></i></a>
+                        -->
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h1 class=" text" style="text-align: center;">Fale Conosco</h1>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Seu Name">
+                                    <label for="name">Seu Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Seu Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Assunto</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Mensagem</label>
+                                </div>
+                            </div>
+                                            <div class="col-lg-12" style="margin-top: 10px;">
+                                <fieldset>
+                                    <button type="button" id="form-submit" class="jk-button">Enviar pelo
+                                        WhatsApp</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+ <!-- Contact End 
+<div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><span id="59B595A2-72F4-4A33-8359-7F2CD0A2EDF1" style="display: none;">Para iniciar o trajeto, pressione as teclas de seta.</span></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div>
+
+-->
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2434.128873691603!2d-55.920601644303034!3d-13.046702147399005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1725301534670!5m2!1spt-BR!2sbr" 
+                frameborder="0" style="width: 100%; height: 450px" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">MarquesTutorial</a>, Direitos Reservados.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                    <footer>
+                        <div class="container">
+                            <div class="row">
+                                    <div class="col-lg-12">
+                                    <p>Copyright © 2023 MarquesTutorial, Direitos Reservados.
+                                        <br>Ajustado <a title="CSS Templates" rel="sponsored" href="marquestutorial@gmail.com"
+                                            target="_blank">MarquesTutorial</a>
+                                    </p>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- roda pé -->
+    
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
